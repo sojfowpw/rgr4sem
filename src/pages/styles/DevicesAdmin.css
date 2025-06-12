@@ -1,0 +1,71 @@
+.devices_admin_back {
+    position: absolute;
+    left: 68px;
+    width: 550px;
+    height: 48px;
+    background-color: #ff5454;
+    top: 160px;
+    border-radius: 15px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list_devices_back {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    height: 500px;
+    background-color: #d6d6d6;
+    top: 220px;
+}
+
+.list_devices_front {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    height: 484px;
+    background-color: #f4f4f4;
+    top: 228px;
+    overflow-y: auto;
+}
+
+.button_adm_back {
+    position: absolute;
+    display: block;
+    right: 0%;
+    margin: 30px;
+    padding: 10px 80px;
+    background-color: #ff5454;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_adm_back:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}
+
+.button_delete_device {
+    margin-right: 20px;
+    padding: 5px 20px;
+    background-color: #ff5454;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button_delete_device:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}

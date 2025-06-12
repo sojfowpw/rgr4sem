@@ -1,0 +1,72 @@
+.back_form {
+    position: absolute;
+    left: 68px;
+    width: 550px;
+    height: 48px;
+    background-color: #ff5454;
+    top: 160px;
+    border-radius: 15px;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_back_form {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    height: 270px;
+    background-color: #d6d6d6;
+    top: 220px;
+}
+
+.login_front_form {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    height: 254px;
+    background-color: #f4f4f4;
+    top: 228px;
+}
+
+.button_login_form {
+    position: absolute;
+    display: block;
+    left: 1%;
+    padding: 10px 80px;
+    background-color: #ff5454;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_login_form:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}
+
+.button_login_back {
+    position: absolute;
+    display: block;
+    right: 0%;
+    margin: 30px;
+    padding: 10px 80px;
+    background-color: #ff5454;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button_login_back:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}

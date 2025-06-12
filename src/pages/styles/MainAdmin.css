@@ -1,0 +1,57 @@
+.button_admin_people {
+    position: absolute;
+    display: inline-block;
+    padding: 17px 100px;
+    background-color: #ff5454;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    top: 300px;
+}
+
+.button_admin_people:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}
+
+.button_admin_devices {
+    position: absolute;
+    display: inline-block;
+    padding: 17px 88px;
+    background-color: #ff5454;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    top: 400px;
+}
+
+.button_admin_devices:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}
+
+.button_admin_out {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 60px;
+    right: 50px;
+    background-color: #ff5454;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    top: 100px;
+}
+
+.button_admin_out:hover {
+    background-color: #f66;
+    transform: scale(1.05);
+}
